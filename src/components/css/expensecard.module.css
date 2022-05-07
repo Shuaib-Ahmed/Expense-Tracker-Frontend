@@ -1,0 +1,17 @@
+.expenseCard{
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    flex: 1 0 30rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.expenseCard h3{
+    text-decoration: underline;
+    margin: 1rem 0;
+}
+.expenseCard p{
+    margin: 0.75rem 0;
+}

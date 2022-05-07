@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+:root {
+  --mainTransition: all 0.3s ease-in-out;
+}
+
+/* headings */
+h1 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 2rem;
+}
+
+/* a-tag */
+a {
+  text-decoration: none;
+}
+
+/* loading img container */
+.loadingContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*  */
+.errorPageContainer, .noExpenseContainer {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 1rem;
+}
+
+/* button conatiner */
+.button-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* button */
+button,
+.linkBtn {
+  border: none;
+  cursor: pointer;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  transition: var(--mainTransition);
+}
+.blue-btn {
+  background: turquoise;
+}
+.blue-btn:hover {
+  background: rgb(48, 187, 173);
+}
+.red-btn {
+  background: rgb(218, 17, 17);
+}
+.red-btn:hover {
+  background: rgb(163, 25, 25);
+}
+.dark-btn {
+  background: #000000;
+  color: #ffffff;
+}
+.dark-btn:hover {
+  background: #222121;
+}
+
+/* footer */
+footer {
+  background: #000;
+  color: #fff;
+  padding: 2rem 0.5rem;
+  text-align: center;
+}
+
+/* media query */
+@media only screen and (max-width: 996px) {
+  html {
+    font-size: 8px;
+  }
+  .button-container {
+    flex-direction: column;
+  }
+}

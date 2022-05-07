@@ -1,0 +1,15 @@
+.navContainer{
+    background: #000000;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 1rem 0.5rem;
+}
+.navImage{
+    width: 50px;
+    border-radius: 50%;
+}
